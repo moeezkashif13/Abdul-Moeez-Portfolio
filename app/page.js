@@ -524,7 +524,7 @@ Get in Touch
 </a>
 
 
-<a href='https://revivedigi.vercel.app/our-clients' target='_blank' className='md:w-[49%] max-w-[650px]  w-full bg-[#1e1e1e] h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] bg-center bg-no-repeat' style={{backgroundSize:'410px',backgroundImage:'url(/portfolioSample/revivedigi.png)'}}>
+<a href='https://revivedigi.vercel.app/our-clients' target='_blank' className='md:w-[49%] max-w-[650px]  w-full bg-[#1e1e1e] h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] bg-center bg-no-repeat bg-[length:410px_410px] md:bg-[length:510px_510px] lg:bg-[length:570px_570px] xl:bg-[length:650px_650px]  ' style={{backgroundImage:'url(/portfolioSample/revivedigi.png)'}}>
 
 <div className='w-full h-full transition-all duration-300  bg-black opacity-0 hover:opacity-75 '></div>
 
