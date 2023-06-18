@@ -509,7 +509,11 @@ Get in Touch
 
 <a href='https://moeezinteriordesign.netlify.app' target='_blank' className='md:w-[49%] max-w-[650px]   w-full  h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] mockupBackground'  >
 
-<div className='w-full h-full bg-cover bg-center bg-no-repeat' style={{backgroundImage:'url(/portfolioSample/interiordesign.png)'}}>
+<div className='w-full h-full relative'>
+
+
+<Image  src='/portfolioSample/interiordesign.png' fill className='object-cover' />
+
 
 <div className='w-full h-full transition-all duration-300  bg-black opacity-0 hover:opacity-75 '></div>
 
@@ -517,11 +521,20 @@ Get in Touch
 
 </a>
 
-<a href='https://moeezinteriordesign.netlify.app' target='_blank' className='md:w-[49%] max-w-[650px]  w-full bg-[#1e1e1e] h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] bg-cover bg-center  bg-no-repeat' style={{backgroundImage:'url(/portfolioSample/interiordesign.png)'}}>
+<a href='https://moeezinteriordesign.netlify.app' target='_blank' className='md:w-[49%] max-w-[650px]  bg-[#1e1e1e] w-full  h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] '  >
+
+<div className='w-full h-full relative'>
+
+
+<Image  src='/portfolioSample/interiordesign.png' fill className='object-cover' />
+
 
 <div className='w-full h-full transition-all duration-300  bg-black opacity-0 hover:opacity-75 '></div>
 
+</div>
+
 </a>
+
 
 
 <a href='https://revivedigi.vercel.app/our-clients' target='_blank' className='md:w-[49%] max-w-[650px]  w-full bg-[#1e1e1e] h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] bg-center bg-no-repeat bg-[length:410px_410px] md:bg-[length:510px_510px] lg:bg-[length:570px_570px] xl:bg-[length:650px_650px]  ' style={{backgroundImage:'url(/portfolioSample/revivedigi.png)'}}>
@@ -532,7 +545,10 @@ Get in Touch
 
 
 
-<a href='https://abdulmoeez-agency.netlify.app' target='_blank' className='md:w-[49%] max-w-[650px]  w-full h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] bg-cover bg-center ' style={{backgroundImage:'url(/portfolioSample/designagency.png)'}}>
+<a href='https://abdulmoeez-agency.netlify.app' target='_blank' className='md:w-[49%] max-w-[650px]  w-full h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] relative ' >
+
+
+<Image src='/portfolioSample/designagency.png' fill className='object-cover'  />
 
 <div className='w-full h-full transition-all duration-300  bg-black opacity-0 hover:opacity-75 '></div>
 
