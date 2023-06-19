@@ -48,12 +48,29 @@ const whatICreated = [
 
 
 
+
+
+
 export default function Home() {
 
   let containerHeight = 230;
 
 
   const [topPosition,setTopPosition] = useState(containerHeight);
+
+
+
+  const [windowHREF,setWindowHREF] = useState('');
+
+
+
+
+useEffect(()=>{
+
+  setWindowHREF(window.location.href)
+
+
+},[])
 
 
 
@@ -183,13 +200,13 @@ direction:'alternate',
 
 <div className='flex gap-x-10  font-semibold'>
 
-    <a href={`${window.location.href}#i-made-them`} className='cursor-pointer'>What I Made</a>
+    <a href={`${windowHREF}#i-made-them`} className='cursor-pointer'>What I Made</a>
 
-    <a href={`${window.location.href}#services`} className='cursor-pointer'>Services</a>
+    <a href={`${windowHREF}#services`} className='cursor-pointer'>Services</a>
 
 
-    <a href={`${window.location.href}#portfolio`} className='cursor-pointer'>Portfolio</a>
-    <a href={`${window.location.href}#contact-me`} className='cursor-pointer'>Contact Me</a>
+    <a href={`${windowHREF}#portfolio`} className='cursor-pointer'>Portfolio</a>
+    <a href={`${windowHREF}#contact-me`} className='cursor-pointer'>Contact Me</a>
 
 </div>
 
@@ -227,13 +244,13 @@ Get in Touch
 
 <div className='text-center space-y-1 mt-2 h-full toggleMobileNav mainStyles flex items-center justify-center flex-col' style={{transition:'all 0.6s linear 0'}}>
 
-<a href={`${window.location.href}#i-made-them`} className='cursor-pointer'>What I Made</a>
+<a href={`${windowHREF}#i-made-them`} className='cursor-pointer'>What I Made</a>
 
-<a href={`${window.location.href}#services`} className='cursor-pointer'>Services</a>
+<a href={`${windowHREF}#services`} className='cursor-pointer'>Services</a>
 
 
-<a href={`${window.location.href}#portfolio`} className='cursor-pointer'>Portfolio</a>
-<a href={`${window.location.href}#contact-me`} className='cursor-pointer'>Contact Me</a>
+<a href={`${windowHREF}#portfolio`} className='cursor-pointer'>Portfolio</a>
+<a href={`${windowHREF}#contact-me`} className='cursor-pointer'>Contact Me</a>
 
 </div>
 
