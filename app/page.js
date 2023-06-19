@@ -720,7 +720,7 @@ Get in Touch
   
 <div >
 
-<p className='text-[#bfbfbf] mb-4 md:text-lg'>Working in development and design has given me a stronger sense of the extraordinary in my digital work </p>
+<p className='text-[#bfbfbf] mb-4 md:text-lg'>Working in development has given me a stronger sense of the extraordinary in my digital work </p>
 
 <p className='text-[#7a7a7a]'>&copy; Abdul Moeez. All rights reserved 2023</p>
 
