@@ -177,37 +177,39 @@ direction:'alternate',
 
 {/* NAVBAR */}
 
-{/* <div className='flex items-center  justify-between'>
+<div className='hidden md:flex items-center  justify-between px-desktopCommon pt-3 pb-6   '>
 
 <div>logo</div>
 
-<div className='flex'>
+<div className='flex gap-x-10  font-semibold'>
 
-    <div>Home</div>
-    <div>Services</div>
-    <div>Portfolio</div>
+    <a href={`${window.location.href}#i-made-them`} className='cursor-pointer'>What I Made</a>
 
-    <div>Contact</div>
+    <a href={`${window.location.href}#services`} className='cursor-pointer'>Services</a>
+
+
+    <a href={`${window.location.href}#portfolio`} className='cursor-pointer'>Portfolio</a>
+    <a href={`${window.location.href}#contact-me`} className='cursor-pointer'>Contact Me</a>
 
 </div>
 
 
-<div className='px-6 py-1.5 rounded-lg border border-white'>
+<a href='https://www.facebook.com/abdulmoeez121367' target='_blank' className='px-6 py-1.5 cursor-pointer z-50  rounded-lg border border-white'>
 
 Get in Touch
 
+</a>
+
+
+
 </div>
-
-
-
-</div> */}
 
 {/* NAVBAR */}
 
 
 {/* MOBILE NAVBAR */}
 
-<div className=' px-mobileCommon md:px-tabletCommon xl:px-desktopCommon  pt-3'>
+<div className='md:hidden block px-mobileCommon md:px-tabletCommon xl:px-desktopCommon  pt-3'>
 
 <div className='flex'>
 <div>
@@ -223,12 +225,15 @@ Get in Touch
 </div>
 
 
-<div className='text-center space-y-0.5 h-full toggleMobileNav mainStyles' style={{transition:'all 0.8s linear 0'}}>
+<div className='text-center space-y-1 mt-2 h-full toggleMobileNav mainStyles flex items-center justify-center flex-col' style={{transition:'all 0.6s linear 0'}}>
 
-<p>Intro</p>
-<p>Intro</p>
-<p>Intro</p>
-<p>Intro</p>
+<a href={`${window.location.href}#i-made-them`} className='cursor-pointer'>What I Made</a>
+
+<a href={`${window.location.href}#services`} className='cursor-pointer'>Services</a>
+
+
+<a href={`${window.location.href}#portfolio`} className='cursor-pointer'>Portfolio</a>
+<a href={`${window.location.href}#contact-me`} className='cursor-pointer'>Contact Me</a>
 
 </div>
 
@@ -246,7 +251,49 @@ Get in Touch
 
 {/* HERO SECT */}
 
-<div className='relative md:h-[80vh]  flex flex-col  justify-center md:flex-row px-mobileCommon md:px-tabletCommon xl:px-desktopCommon '>
+<div className='relative md:h-[80vh]   flex flex-col  justify-center md:flex-row px-mobileCommon md:px-tabletCommon xl:px-desktopCommon md:mt-0 '>
+
+<div className='hidden xl:block'>
+
+<div className='absolute top-5 left-[15%] rotate-[30deg]'>
+  <img src="/logos/html.svg" width={45} alt="" />
+</div>
+
+<div className='absolute top-[25%] left-[45%] rotate-[30deg]'>
+  <img src="/logos/css.svg" width={35} alt="" />
+</div>
+
+<div className='absolute top-[50%] left-[55%] rotate-[30deg]'>
+  <img src="/logos/javascript.svg" width={45} alt="" />
+</div>
+
+<div className='absolute top-[0%] left-[65%] '>
+  <img src="/logos/reactjs.svg" width={55} alt="" />
+</div>
+
+<div className='absolute top-[65%] left-[40%] '>
+  <img src="/logos/nextjs.svg" width={90} alt="" />
+</div>
+
+
+<div className='absolute -top-[7%] left-[35%] '>
+  <img src="/logos/tailwind.svg" width={60} alt="" />
+</div>
+
+
+<div className='absolute top-[20%] right-[35%] rotate-[30deg]'>
+  <img src="/logos/strapi.svg" width={100} alt="" />
+</div>
+
+
+<div className='absolute top-[70%] left-[60%] '>
+  <img src="/logos/wordpress.svg" className='w-[50px]' alt="" />
+</div>
+
+
+
+
+</div>
 
 <div className='pt-2 z-20 md:w-full md:flex md:flex-col md:justify-center'>
 
@@ -256,7 +303,7 @@ Get in Touch
 
 </div>
 
-<div className='md:absolute md:-top-[18%] md:-right-[8%] lg:-right-[5%] h-[350px]  sm:h-[525px] lg:h-[540px]  mt-4'>
+<div className='  md:absolute md:-top-[18%] md:-right-[8%] lg:-right-[5%] h-[350px]  sm:h-[525px] lg:h-[540px] xl:h-[600px] xl:-right-[6.3%] mt-4'>
 
 <img src="/removedbackground.png" className=' w-full h-full max-w-full' alt="" />
 
@@ -275,7 +322,7 @@ Get in Touch
 {/* OUR CLIENTS */}
 
 
-<div  >
+<div  id="i-made-them"   >
 
 
 <div className='text-center'>
@@ -380,7 +427,7 @@ Get in Touch
 
 
 
-<div className='text-center relative'>
+<div id='services'  className='text-center relative'>
 
 <p className='text-primary font-semibold md:text-xl xl:text-2xl '>Services</p>
 
@@ -412,7 +459,7 @@ Get in Touch
 </div>
 
 
-<p className='text-right py-3 md:w-1/2 md:ml-auto md:text-left xl:text-right'>dasdasdasdas das dasjd basjdbsjab djsabdjasbd jdbasjdb</p>
+<p className='text-right py-3 md:w-1/2 md:ml-auto md:text-left xl:text-right invisible'>dasdasdasdas das dasjd basjdbsjab djsabdjasbd jdbasjdb</p>
 
 
 <div className='flex flex-wrap xl:text-lg border border-white border-b-0'>
@@ -448,7 +495,7 @@ Get in Touch
 </div>
 
 
-<p className='text-right py-3 md:w-1/2 md:ml-auto md:text-left xl:text-right'>dasdasdasdas das dasjd basjdbsjab djsabdjasbd jdbasjdb</p>
+<p className='text-right py-3 md:w-1/2 md:ml-auto md:text-left xl:text-right invisible'>dasdasdasdas das dasjd basjdbsjab djsabdjasbd jdbasjdb</p>
 
 
 <div className='flex flex-wrap xl:text-lg border border-white border-b-0 text-sm'>
@@ -491,7 +538,7 @@ Get in Touch
 
 {/* SELECTED WORKS */}
 
-<div>
+<div id='portfolio'>
 
 
 <div className='bg-[#0a0a0a] text-center py-7'>
@@ -608,7 +655,7 @@ Get in Touch
 
 {/* CONTACT ME */}
 
-<div className='px-mobileCommon md:px-tabletCommon xl:px-desktopCommon '>
+<div id='contact-me' className='px-mobileCommon md:px-tabletCommon xl:px-desktopCommon '>
 
 
 <div className='flex flex-col items-center relative'>
