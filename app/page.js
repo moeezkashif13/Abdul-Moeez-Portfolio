@@ -76,21 +76,6 @@ useEffect(()=>{
 
   useEffect(()=>{
 
-    // const bannerAnimation = (className,duration,translateX)=>{
-    //   anime({
-    //     targets: '.'+className,
-    //     translateX: translateX,
-    //     duration: `${duration}000`,
-    //     loop: true,
-    //     delay:0,
-    // direction:'alternate',
-        
-    //     easing: 'easeInOutSine'
-    //   });
-    // }
-
-    // bannerAnimation('loop',12,'-1200')
-
 anime({
 
   targets: '.skillsBanner',
@@ -148,10 +133,11 @@ direction:'alternate',
 
   {[1,2,3].map(()=>{
     return <>
-      <li>UI/UX DESIGN</li>
-  <li>development</li>
-  <li>icon design</li>
-  <li>loading</li>
+      <li>React JS</li>
+  <li>Next JS</li>
+  <li>Tailwind CSS</li>
+  <li>Javascript</li>
+  <li>Strapi CMS</li>
     </>
   })}
 
@@ -167,10 +153,11 @@ direction:'alternate',
 
   {[1,2,3].map(()=>{
     return <>
-      <li>UI/UX DESIGN</li>
-  <li>development</li>
-  <li>icon design</li>
-  <li>loading</li>
+      <li>React JS</li>
+  <li>Next JS</li>
+  <li>Tailwind CSS</li>
+  <li>Javascript</li>
+  <li>Strapi CMS</li>
     </>
   })}
 
@@ -639,7 +626,7 @@ Get in Touch
 
 
 <div  className='uppercase   w-[500%]  -ml-16 bg-primary py-2 text-black  font-extrabold
-'>
+text-[1rem] lg:text-lg'>
 
 
   <ul className='flex gap-x-10 list-disc loop'>
@@ -647,11 +634,11 @@ Get in Touch
 
 {[1,2,3].map(()=>{
   return <>
-  <li>UI/UX DESIGN</li>
-<li>development</li>
-<li>icon design</li>
-<li>react js</li>
-
+      <li>React JS</li>
+  <li>Next JS</li>
+  <li>Tailwind CSS</li>
+  <li>Javascript</li>
+  <li>Strapi CMS</li>
 </>
 })}
 
