@@ -305,7 +305,7 @@ Get in Touch
 
 <p className='text-sm mt-2 w-[85%] md:w-[365px] lg:text-[1rem] lg:pl-2.5'>Hello, my name is Abdul Moeez, nice to meet you I would like to you with my personal portfolio</p>
 
-<p>MEASURMENT: {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}</p>
+
 
 </div>
 
