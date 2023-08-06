@@ -212,17 +212,22 @@ direction:'alternate',
 
 {/* NAVBAR */}
 
-<div className='hidden md:flex items-center  justify-between px-desktopCommon pt-3 pb-6   '>
+<div className='hidden md:flex items-start lg:items-center  justify-between px-desktopCommon pt-3 pb-6   '>
+
 
 <div>logo</div>
 
-<div className='flex gap-x-10  font-semibold'>
+<div className='flex md:flex-col lg:flex-row gap-x-10  font-semibold'>
 
     <a href={`${windowHREF}#i-made-them`} className='cursor-pointer'>What I Made</a>
 
     <a href={`${windowHREF}#services`} className='cursor-pointer'>Services</a>
 
     <a href={`${windowHREF}#portfolio`} className='cursor-pointer'>Portfolio</a>
+
+    <a href={`${windowHREF}#bookappointment`} className='cursor-pointer'>Book Appointment</a>
+
+    <a href={`${windowHREF}#faq`} className='cursor-pointer'>FAQ</a>
 
 
 
@@ -246,7 +251,7 @@ Get in Touch
 
 {/* MOBILE NAVBAR */}
 
-<div className='md:hidden block px-mobileCommon md:px-tabletCommon xl:px-desktopCommon  pt-3'>
+{/* <div className='md:hidden block px-mobileCommon md:px-tabletCommon xl:px-desktopCommon  pt-3'>
 
 <div className='flex'>
 <div>
@@ -276,7 +281,7 @@ Get in Touch
 
 
 
-</div>
+</div> */}
 
 
 {/* MOBILE NAVBAR */}
@@ -286,7 +291,7 @@ Get in Touch
 
 {/* HERO SECT */}
 
-<div className='relative md:h-[80vh]   flex flex-col  justify-center md:flex-row px-mobileCommon md:px-tabletCommon xl:px-desktopCommon md:mt-0 '>
+<div className='  max-w-[1366px] 1xl:mx-auto 1xl:items-center relative md:h-[80vh]   flex flex-col  justify-center md:flex-row px-mobileCommon md:px-tabletCommon xl:px-desktopCommon md:mt-0 '>
 
 <div className='hidden xl:block'>
 
@@ -342,7 +347,7 @@ Get in Touch
 
 </div>
 
-<div className='  md:absolute md:-top-[18%] md:-right-[8%] lg:-right-[5%] h-[350px]  sm:h-[525px] lg:h-[540px] xl:h-[600px] xl:-right-[6.3%] mt-4'>
+<div className='  md:absolute md:-top-[18%] md:-right-[8%] lg:-right-[5%] h-[350px]  sm:h-[525px] lg:h-[540px] xl:h-[600px] xl:-right-[6.3%] mt-4 1xl:top-[15%]'>
 
 <img src="/removedbackground.png" className=' w-full h-full max-w-full' alt="" />
 
