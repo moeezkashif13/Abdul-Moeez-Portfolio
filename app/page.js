@@ -47,6 +47,45 @@ const whatICreated = [
 ]
 
 
+const faqs = [
+  {
+    question: "Can you provide examples of websites you've developed in the past?",
+    answer: "Certainly! You can view my portfolio on my website to see a range of projects I've worked on. Feel free to explore the live websites and see the diversity of designs and functionalities."
+  },
+  {
+    question: "How do you ensure that the website will be responsive and work on different devices?",
+    answer: "I prioritize responsive design in all my projects. I use modern web development techniques to ensure that the website will adapt and function well on various screen sizes, from desktops to tablets and smartphones."
+  },
+  {
+    question: "What is your process for incorporating specific features into the website, such as contact forms or e-commerce capabilities?",
+    answer: "I will discuss your requirements in detail to understand the features you need. Then, I will plan and implement these features using appropriate technologies. For instance, if you need a contact form, I'll use HTML/CSS and possibly JavaScript to create a user-friendly form that captures client inquiries."
+  },
+  {
+    question: "How do you handle website security and protect against potential vulnerabilities?",
+    answer: "I take website security seriously. I employ best practices such as using secure coding techniques, regular updates, and implementing HTTPS protocols."
+  },
+  {
+    question: "Will I be able to update and manage the website's content on my own?",
+    answer: "Absolutely! I can build your website on a content management system (CMS) which will allow you to easily update and add content without needing extensive technical knowledge. I'll also guide you for free if needed."
+  },
+  {
+    question: "How do you handle website hosting and domain registration?",
+    answer: "I can assist you in selecting a suitable hosting provider and help you with domain registration if needed."
+  },
+  {
+    question: "What is your approach to search engine optimization (SEO) for the website?",
+    answer: "I design websites with SEO in mind from the start. This includes optimizing page load speed, using proper HTML structure, and implementing meta tags."
+  },
+  {
+    question: "What is your pricing structure and what factors can affect the overall cost of the project?",
+    answer: "My pricing is based on the scope of the project, including design complexity, features required, and estimated development time. I provide detailed quotes and transparent pricing breakdowns to ensure you have a clear understanding of the costs involved."
+  },
+  {
+    question: "How do you handle ongoing website maintenance and updates?",
+    answer: "I offer maintenance for free (3 months) that include regular updates, technical support."
+  }
+];
+
 
 
 
@@ -108,14 +147,6 @@ direction:'alternate',
 
 
     const hello = document.querySelector('.hello');
-
-    console.log(hello.offsetTop);
-
-    
-
-
-
-
 
   },[])
 
@@ -191,14 +222,16 @@ direction:'alternate',
 
     <a href={`${windowHREF}#services`} className='cursor-pointer'>Services</a>
 
-
     <a href={`${windowHREF}#portfolio`} className='cursor-pointer'>Portfolio</a>
+
+
+
     <a href={`${windowHREF}#contact-me`} className='cursor-pointer'>Contact Me</a>
 
 </div>
 
 
-<a href='https://www.facebook.com/abdulmoeez121367' target='_blank' className='px-6 py-1.5 cursor-pointer z-50  rounded-lg border border-white'>
+<a href='mailto:moeezkashif13@gmail.com' target='_blank' className='px-6 py-1.5 cursor-pointer z-50  rounded-lg border border-white'>
 
 Get in Touch
 
@@ -247,8 +280,6 @@ Get in Touch
 
 
 {/* MOBILE NAVBAR */}
-
-
 
 
 
@@ -303,7 +334,9 @@ Get in Touch
 
 <h1 className='text-7xl md:text-[6rem] lg:text-[8rem] font-bold'>Abdul <br /> Moeez</h1>
 
-<p className='text-sm mt-2 w-[85%] md:w-[365px] lg:text-[1rem] lg:pl-2.5'>Hello, my name is Abdul Moeez, nice to meet you I would like to you with my personal portfolio</p>
+<p className='text-sm mt-2 w-[85%] md:w-[365px] lg:text-[1rem] lg:pl-2.5'>Thank you for stepping into my world. Feel free to explore my work, and get in touch to discuss how we can shape your digital dreams into a captivating digital reality.
+
+</p>
 
 </div>
 
@@ -619,6 +652,89 @@ Get in Touch
 {/* SELECTED WORKS */}
 
 
+{/* BOOK APPOINTMENT */}
+
+
+<div id='bookappointment'>
+
+
+<div className='bg-[#0a0a0a] text-center py-7'>
+
+<p className='text-primary font-semibold md:text-xl xl:text-2xl'>Book Appointment</p>
+
+<p className='text-xl font-bold md:text-2xl xl:text-3xl'>Discuss your ideas for free</p>
+
+</div>
+
+
+
+<div className='space-y-5 md:space-y-0  md:mt-6 flex flex-col  items-center md:justify-center px-mobileCommon md:px-tabletCommon xl:px-desktopCommon md:flex-row md:flex-wrap md:gap-3 ' style={{marginTop:'-40px'}}>
+
+
+<div className="calendly-inline-widget w-full" data-url="https://calendly.com/moeezkashif13/portfolio-website?background_color=000000&text_color=91ff00&primary_color=91ff00" style={{minWidth:'320px',height:'700px'}}></div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+{/* BOOK APPOINTMENT */}
+
+
+
+{/* FAQ */}
+
+<div id='faq' className='px-mobileCommon md:px-tabletCommon xl:px-desktopCommon'>
+
+<div className='text-center'>
+<p className='text-primary font-semibold md:text-xl xl:text-2xl '>FAQ's</p>
+
+<p className='text-xl md:text-2xl lg:text-3xl font-bold'>Important questions, answered <br /> to save your time</p>
+
+</div>
+
+<div className=" flex flex-wrap flex-col  lg:flex-row mt-5 text-base font-semibold ">
+
+
+    {faqs.map((eachFAQ)=>{
+
+        return <div className=" bg-black text-primary border-2 border-primary px-4 py-4 space-y-2 rounded-lg  mt-0  mb-4 w-full lg:w-[49.1%] desktop:w-[49.3%]  lg:odd:mr-4">
+
+<div className="  flex gap-x-2 items-center "   >  {eachFAQ.question}</div>
+
+
+        {/* <div className="  flex gap-x-2 items-center "   >  {eachFAQ.question}</div> */}
+
+
+<div className="  toggleDiv " >{eachFAQ.answer}</div>
+
+
+        </div>
+
+
+    })}
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+{/* FAQ */}
+
+
 {/* BANNER */}
 
 
@@ -719,6 +835,10 @@ text-[1rem] lg:text-lg'>
 
 <div className='text-white flex flex-col items-center gap-y-5'>
 
+<a target='_blank' href="mailto:moeezkashif13@gmail.com" className='flex items-center gap-x-2'>
+  <img src="/email.svg" width={30} alt="" />
+  <span>moeezkashif13@gmail.com</span>
+</a>
 
 <a target='_blank' href="https://www.facebook.com/abdulmoeez121367" className='flex items-center gap-x-2'>
   <img src="/facebook.svg" width={30} alt="" />
