@@ -12,6 +12,8 @@ module.exports = {
         'forBanner' : '580px',
         'anotherMobile' : '400px',
         'anotherDesktop' : '1100px',
+        'forbookingform' : '680px',
+        'anotherForBookingForm':'1050px',
         'secondDesktop' : '1300px'
       },
       

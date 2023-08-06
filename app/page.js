@@ -158,7 +158,7 @@ direction:'alternate',
 {/* <div className='w-40 h-40 absolute top-0 bg-teal-500 z-40 rounded-full'></div> */}
 
 
-<div className='  absolute rotate-12 z-50 w-full top-[980px] anotherMobile:top-[950px] forBanner:top-[880px] sm:top-[1050px] md:top-[770px] xl:top-[770px] secondDesktop:top-[820px] -left-[25%] list-disc uppercase  text-black font-bold  text-xl '>
+<div className='  absolute rotate-12 z-50 w-full top-[980px] anotherMobile:top-[950px] forBanner:top-[880px] sm:top-[1050px] md:top-[770px] xl:top-[770px] secondDesktop:top-[820px] -left-[25%] list-disc uppercase  text-black font-bold text-sm forBanner:text-lg '>
  
 <ul className='skillsBanner flex  gap-x-12    w-[600%] bg-[#91ff0064] py-2' >
 
@@ -178,7 +178,7 @@ direction:'alternate',
 
 
 
-<div className='  absolute -rotate-12 z-50 w-full top-[1000px] anotherMobile:top-[970px] forBanner:top-[920px] sm:top-[1100px] md:top-[830px] xl:top-[840px] secondDesktop:top-[900px] -left-[7%] forBanner:-left-[12%] anotherDesktop:left-[0%] secondDesktop:-left-[5%]  list-disc uppercase  text-black font-bold text-xl '>
+<div className='  absolute -rotate-12 z-50 w-full top-[1000px] anotherMobile:top-[970px] forBanner:top-[920px] sm:top-[1100px] md:top-[830px] xl:top-[840px] secondDesktop:top-[900px] -left-[7%] forBanner:-left-[12%] anotherDesktop:left-[0%] secondDesktop:-left-[5%]  list-disc uppercase  text-black font-bold text-sm forBanner:text-lg '>
  
 <ul className='skillsBanner flex  gap-x-12   py-2  w-[600%] bg-[#91ff00]' >
 
@@ -430,7 +430,6 @@ Get in Touch
 '>
 
 
-
 {/* <div className='  bg-[#91ff00] list-disc uppercase  py-2  '>
  
 
@@ -670,10 +669,10 @@ Get in Touch
 
 
 
-<div className='space-y-5 md:space-y-0  md:mt-6 flex flex-col  items-center md:justify-center px-mobileCommon md:px-tabletCommon xl:px-desktopCommon md:flex-row md:flex-wrap md:gap-3 ' style={{marginTop:'-40px'}}>
+<div className='space-y-5 md:space-y-0   flex flex-col  items-center md:justify-center px-mobileCommon md:px-tabletCommon xl:px-desktopCommon md:flex-row md:flex-wrap md:gap-3 -mt-0 forbookingform:-mt-10' >
 
 
-<div className="calendly-inline-widget w-full" data-url="https://calendly.com/moeezkashif13/portfolio-website?background_color=000000&text_color=91ff00&primary_color=91ff00" style={{minWidth:'320px',height:'700px'}}></div>
+<div className="calendly-inline-widget w-full h-[970px] forbookingform:h-[1020px] anotherForBookingForm:h-[680px]" data-url="https://calendly.com/moeezkashif13/portfolio-website?background_color=000000&text_color=91ff00&primary_color=91ff00" style={{minWidth:'320px'}}></div>
 
 
 
@@ -744,7 +743,7 @@ Get in Touch
 
 
 <div  className='uppercase   w-[500%]  -ml-16 bg-primary py-2 text-black  font-extrabold
-text-[1rem] lg:text-lg'>
+text-[0.8rem] lg:text-lg'>
 
 
   <ul className='flex gap-x-10 list-disc loop'>
