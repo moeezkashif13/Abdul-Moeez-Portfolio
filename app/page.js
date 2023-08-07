@@ -158,7 +158,7 @@ direction:'alternate',
 {/* <div className='w-40 h-40 absolute top-0 bg-teal-500 z-40 rounded-full'></div> */}
 
 
-<div className='  absolute rotate-12 z-50 w-full top-[980px] anotherMobile:top-[950px] forBanner:top-[880px] sm:top-[1050px] md:top-[770px] xl:top-[770px] secondDesktop:top-[820px] -left-[25%] list-disc uppercase  text-black font-bold text-sm forBanner:text-lg '>
+{/* <div className='  absolute rotate-12 z-50 w-full top-[980px] anotherMobile:top-[950px] forBanner:top-[880px] sm:top-[1050px] md:top-[770px] xl:top-[770px] secondDesktop:top-[820px] -left-[25%] list-disc uppercase  text-black font-bold text-sm forBanner:text-lg '>
  
 <ul className='skillsBanner flex  gap-x-12    w-[600%] bg-[#91ff0064] py-2' >
 
@@ -194,7 +194,7 @@ direction:'alternate',
 
 </ul>
 
-</div>
+</div> */}
 
 
 
@@ -347,7 +347,7 @@ Get in Touch
 
 </div>
 
-<div className='  md:absolute md:-top-[18%] md:-right-[8%] lg:-right-[5%] h-[350px]  sm:h-[525px] lg:h-[540px] xl:h-[600px] xl:-right-[6.3%] mt-4 1xl:top-[15%]'>
+<div className='  md:absolute md:-top-[18%] md:-right-[8%] lg:-right-[5%] h-[350px]  sm:h-[525px] lg:h-[540px]  xl:-right-[6.3%] mt-4 1xl:top-[15%]'>
 
 <img src="/removedbackground.png" className=' w-full h-full max-w-full' alt="" />
 
@@ -366,7 +366,7 @@ Get in Touch
 {/* OUR CLIENTS */}
 
 
-<div  id="i-made-them"   >
+<div  id="i-made-them"  className='pt-0 md:pt-8' >
 
 
 <div className='text-center'>
@@ -431,11 +431,11 @@ Get in Touch
 {/* SKILLS */}
 
 
-<div className='text-black  font-bold hello h-[150px] anotherDesktop:h-[200px] text-xl
+{/* <div className='text-black  font-bold hello h-[150px] anotherDesktop:h-[200px] text-xl
 '>
 
 
-{/* <div className='  bg-[#91ff00] list-disc uppercase  py-2  '>
+<div className='  bg-[#91ff00] list-disc uppercase  py-2  '>
  
 
 <ul className=' flex gap-x-12 '>
@@ -450,11 +450,11 @@ Get in Touch
 
 </ul>
 
-</div> */}
-
-
-
 </div>
+
+
+
+</div> */}
 
 
 
