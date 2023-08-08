@@ -15,7 +15,7 @@ module.exports = {
         'forbookingform' : '680px',
         'anotherForBookingForm':'1050px',
         'secondDesktop' : '1300px',
-        '1xl' : '1366px',
+        '1xl' : '1336px',
       },
       
       padding:{

@@ -347,7 +347,7 @@ Get in Touch
 
 </div>
 
-<div className='  md:absolute md:-top-[18%] md:-right-[8%] lg:-right-[5%] h-[350px]  sm:h-[525px] lg:h-[540px]  xl:-right-[6.3%] mt-4 1xl:top-[15%]'>
+<div className='  md:absolute md:-top-[18%] md:-right-[8%] lg:-right-[5%] h-[350px]  sm:h-[525px] lg:h-[540px]  xl:-right-[6.3%] mt-4 1xl:top-[-15%]'>
 
 <img src="/removedbackground.png" className=' w-full h-full max-w-full' alt="" />
 
