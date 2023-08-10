@@ -80,10 +80,10 @@ const faqs = [
     question: "What is your pricing structure and what factors can affect the overall cost of the project?",
     answer: "My pricing is based on the scope of the project, including design complexity, features required, and estimated development time. I provide detailed quotes and transparent pricing breakdowns to ensure you have a clear understanding of the costs involved."
   },
-  {
-    question: "How do you handle ongoing website maintenance and updates?",
-    answer: "I offer maintenance for free (3 months) that include regular updates, technical support."
-  }
+  // {
+  //   question: "How do you handle ongoing website maintenance and updates?",
+  //   answer: "I offer maintenance for free (3 months) that include regular updates, and technical support."
+  // }
 ];
 
 
