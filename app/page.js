@@ -175,9 +175,9 @@ direction:'alternate',
 
   
     setTimeout(() => {
-      setShowLoader(false)
+      // setShowLoader(false)
       setFullScreenLoader(false)
-    }, 3000);
+    }, 2000);
   
   
   },[])
@@ -429,7 +429,7 @@ Get in Touch
 <div className='flex  justify-center flex-wrap gap-5 pt-5'>
 
 
-<a target='_blank' href='https://moeezinteriordesign.netlify.app' className='w-[130px] flex justify-center items-center h-[60px] border-white rounded-md border'>
+<a target='_blank' href='https://thegoodmentalhealthcompany.netlify.app' className='w-[130px] flex justify-center items-center h-[60px] border-white rounded-md border'>
 
 <img src="/logo5.svg" className='pl-3' width={150} alt="" />
 
@@ -437,7 +437,7 @@ Get in Touch
 </a>
 
 
-<a target='_blank' href='https://moeezinteriordesign.netlify.app' className='w-[130px] flex justify-center items-center h-[60px] border-white rounded-md border'>
+<a target='_blank' href='bridgetbarnestherapy.netlify.app' className='w-[130px] flex justify-center items-center h-[60px] border-white rounded-md border'>
 
 <img src="/logo6.png"  width={170}   alt="" />
 
@@ -445,7 +445,7 @@ Get in Touch
 </a>
 
 
-<a target='_blank' href='https://moeezinteriordesign.netlify.app' className='w-[130px] flex justify-center items-center h-[60px] border-white rounded-md border'>
+<a target='_blank' href='https://luciarossitherapy.netlify.app' className='w-[130px] flex justify-center items-center h-[60px] border-white rounded-md border'>
 
 <img src="/logo7.svg"  className='w-full h-full object-contain'   alt="" />
 
