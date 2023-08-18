@@ -703,7 +703,7 @@ Get in Touch
 
 
 
-<div className='w-full h-full relative bg-cover bg-center bg-no-repeat' style={{backgroundImage:'url(/portfolioSample/Final/web3-first.webp)'}}>
+<div className='w-full h-full relative bg-cover bg-center bg-no-repeat' style={{backgroundImage:'url(https://res.cloudinary.com/dtcwpaba5/image/upload/v1692384521/My%20Portfolio%20Website/vpltnnumoyyyalxpjdfo.webp)'}}>
 
 
 
@@ -728,7 +728,7 @@ Get in Touch
 <div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Therapist Website</div>
 
 
-<div className='w-full h-full relative bg-cover bg-no-repeat bg-center ' style={{backgroundImage:'url(/portfolioSample/Final/web1-first.webp)'}}>
+<div className='w-full h-full relative bg-cover bg-no-repeat bg-center ' style={{backgroundImage:'url(https://res.cloudinary.com/dtcwpaba5/image/upload/v1692384537/My%20Portfolio%20Website/afsnjxd1e3cz3m9c7vk4.webp)'}}>
 
 
 
@@ -746,7 +746,7 @@ Get in Touch
 <div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Therapist Website</div>
 
 
-<div className='w-full h-full relative bg-cover bg-center bg-no-repeat' style={{backgroundImage:'url(/portfolioSample/Final/web1-second.webp)'}}>
+<div className='w-full h-full relative bg-cover bg-center bg-no-repeat' style={{backgroundImage:'url(https://res.cloudinary.com/dtcwpaba5/image/upload/v1692384542/My%20Portfolio%20Website/yvdd0mwhsurdw1re88fi.webp)'}}>
 
 
 
@@ -780,7 +780,7 @@ bg-[center_0] bg-[length:650px] md:bg-[length:800px] anotherDesktop:bg-[length:1
 
 
 
-style={{backgroundImage:'url(/portfolioSample/Final/web2-second.webp)',}}>
+style={{backgroundImage:'url(https://res.cloudinary.com/dtcwpaba5/image/upload/v1692384538/My%20Portfolio%20Website/e087b0wrd5b8nvmcieac.webp)',}}>
 
 
 
@@ -801,7 +801,7 @@ style={{backgroundImage:'url(/portfolioSample/Final/web2-second.webp)',}}>
 
 
 
-<div className='w-full h-full relative bg-cover bg-no-repeat bg-center' style={{backgroundImage:'url(/portfolioSample/Final/web2-third.webp)'}} >
+<div className='w-full h-full relative bg-cover bg-no-repeat bg-center' style={{backgroundImage:'url(https://res.cloudinary.com/dtcwpaba5/image/upload/v1692384538/My%20Portfolio%20Website/jn7wx8uc4ogins5gp6az.webp)'}} >
 
 
 <div className='w-full h-full transition-all duration-300  bg-black opacity-0 hover:opacity-75 '></div>
@@ -827,7 +827,7 @@ style={{backgroundImage:'url(/portfolioSample/Final/web2-second.webp)',}}>
 <div className='w-full h-full relative'>
 
 
-<Image  src='/portfolioSample/interiordesign.png' fill className='object-cover' />
+<Image  src='https://res.cloudinary.com/dtcwpaba5/image/upload/v1692384758/My%20Portfolio%20Website/h7ivyp4xtunnbzugguxz.png' fill className='object-cover' />
 
 
 <div className='w-full h-full transition-all duration-300  bg-black opacity-0 hover:opacity-75 '></div>
@@ -841,7 +841,7 @@ style={{backgroundImage:'url(/portfolioSample/Final/web2-second.webp)',}}>
 <div className='w-full h-full relative'>
 
 
-<Image  src='/portfolioSample/interiordesign.png' fill className='object-cover' />
+<Image  src='https://res.cloudinary.com/dtcwpaba5/image/upload/v1692384758/My%20Portfolio%20Website/h7ivyp4xtunnbzugguxz.png' fill className='object-cover' />
 
 
 <div className='w-full h-full transition-all duration-300  bg-black opacity-0 hover:opacity-75 '></div>
@@ -852,7 +852,10 @@ style={{backgroundImage:'url(/portfolioSample/Final/web2-second.webp)',}}>
 
 
 
-<a href='https://revivedigi.vercel.app/our-clients' target='_blank' className='md:w-[49%] max-w-[650px]  w-full bg-[#1e1e1e] h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] bg-center bg-no-repeat bg-[length:410px_410px] md:bg-[length:510px_510px] lg:bg-[length:570px_570px] xl:bg-[length:650px_650px] relative ' style={{backgroundImage:'url(/portfolioSample/revivedigi.png)'}}>
+<a href='https://revivedigi.vercel.app/our-clients' target='_blank' className='md:w-[49%] max-w-[650px]  w-full bg-[#1e1e1e] h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] bg-center bg-no-repeat bg-[length:410px_410px] md:bg-[length:510px_510px] lg:bg-[length:570px_570px] xl:bg-[length:650px_650px] relative ' 
+
+
+style={{backgroundImage:'url(https://res.cloudinary.com/dtcwpaba5/image/upload/v1692384772/My%20Portfolio%20Website/ywtpffmniatqk5rrtwd2.png)'}}>
 
 <div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Marketing Website</div>
 
@@ -868,7 +871,7 @@ style={{backgroundImage:'url(/portfolioSample/Final/web2-second.webp)',}}>
 <div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Design Agency Website</div>
 
 
-<Image src='/portfolioSample/designagency.png' fill className='object-cover'  />
+<Image src='https://res.cloudinary.com/dtcwpaba5/image/upload/v1692384778/My%20Portfolio%20Website/pro3a8svc37cnn4pvwkl.png' fill className='object-cover'  />
 
 <div className='w-full h-full transition-all duration-300  bg-black opacity-0 hover:opacity-75 '></div>
 
