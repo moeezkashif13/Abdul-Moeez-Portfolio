@@ -117,7 +117,9 @@ export default function Home() {
 
   const [windowHREF,setWindowHREF] = useState('');
 
+  const [showLoader,setShowLoader] = useState(true);
 
+  const [fullScreenLoader,setFullScreenLoader] = useState(true);
 
 
 useEffect(()=>{
@@ -126,6 +128,9 @@ useEffect(()=>{
 
 
 },[])
+
+
+
 
 
 
@@ -166,6 +171,17 @@ direction:'alternate',
 
   },[])
 
+  useEffect(()=>{
+
+  
+    setTimeout(() => {
+      setShowLoader(false)
+      setFullScreenLoader(false)
+    }, 3000);
+  
+  
+  },[])
+  
 
   return (
 
@@ -224,6 +240,22 @@ direction:'alternate',
 
 
 <div className='space-y-8'>
+
+
+
+{/*LOADERRR HEREEE */}
+
+{fullScreenLoader&&
+ <div className='bg-black  top-0 z-[80] fixed w-full h-full flex items-center justify-center '>
+
+<span class="fullScreenLoader"></span>
+
+</div> 
+
+}
+
+{/* LOADERRR HEREEE*}
+
 
 
 {/* NAVBAR */}
@@ -674,6 +706,7 @@ Get in Touch
 <div className='w-full h-full relative bg-cover bg-center bg-no-repeat' style={{backgroundImage:'url(/portfolioSample/Final/web3-first.webp)'}}>
 
 
+
 <div className='w-full h-full transition-all duration-300  bg-black opacity-0 hover:opacity-75 '></div>
 
 </div>
@@ -871,15 +904,33 @@ style={{backgroundImage:'url(/portfolioSample/Final/web2-second.webp)',}}>
 
 
 
-<div className='space-y-5 md:space-y-0   flex flex-col  items-center md:justify-center px-mobileCommon md:px-tabletCommon xl:px-desktopCommon md:flex-row md:flex-wrap md:gap-3 -mt-0 forbookingform:-mt-10' >
+<div className='space-y-5 md:space-y-0   flex flex-col  items-center md:justify-center px-mobileCommon md:px-tabletCommon xl:px-desktopCommon md:flex-row md:flex-wrap md:gap-3 -mt-0 forbookingform:-mt-10 relative' >
+
+{/* {showLoader?
+<div className="w-full h-[970px] forbookingform:h-[1020px] anotherForBookingForm:h-[680px] relative ">
 
 
-<div className="calendly-inline-widget w-full h-[970px] forbookingform:h-[1020px] anotherForBookingForm:h-[680px]" data-url="https://calendly.com/moeezkashif13/portfolio-website?background_color=000000&text_color=91ff00&primary_color=91ff00" style={{minWidth:'320px'}}></div>
+<div className='absolute top-[50%] -translate-y-[50%] left-[50%] -translate-x-[50%]'>
+<span class="loader"></span>
+</div>
+
+</div>
+
+:
+
+
+ <div className={`calendly-inline-widget  w-full h-[970px] forbookingform:h-[1020px] anotherForBookingForm:h-[680px]`} data-url="https://calendly.com/moeezkashif13/portfolio-website?background_color=000000&text_color=91ff00&primary_color=91ff00" style={{minWidth:'320px'}}></div> 
+
+
+
+} */}
+
+
+<div className={`calendly-inline-widget w-full h-[970px] forbookingform:h-[1020px] anotherForBookingForm:h-[680px]  `} data-url="https://calendly.com/moeezkashif13/portfolio-website?background_color=000000&text_color=91ff00&primary_color=91ff00" style={{minWidth:'320px'}}></div>
 
 
 
 </div>
-
 
 
 
