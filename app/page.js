@@ -38,10 +38,26 @@ const techStack = [
 
 const whatICreated = [
 
+
+  {text:'The Good Mental Health Company',link:'https://thegoodmentalhealthcompany.netlify.app'},
+
+
+  {text:'Bridget Barnes Therapy',link:'https://bridgetbarnestherapy.netlify.app'},
+
+
+
+  {text:'Lucia Rossi Therapy',link:'https://luciarossitherapy.netlify.app'},
+
+
   {text:'Next Concept',link:'https://moeezinteriordesign.netlify.app'},
   {text:'Sahhmallllc',link:'https://sahhmallllc.com'},
   {text:'Revive Digital',link:'https://revivedigi.vercel.app'},
   {text:'Design Agency',link:'https://abdulmoeez-agency.netlify.app'},
+
+  {text:'The Good Mental Health Company',link:'https://thegoodmentalhealthcompany.netlify.app'},
+
+  
+
 
 
 ]
@@ -383,6 +399,31 @@ Get in Touch
 
 <a target='_blank' href='https://moeezinteriordesign.netlify.app' className='w-[130px] flex justify-center items-center h-[60px] border-white rounded-md border'>
 
+<img src="/logo5.svg" className='pl-3' width={150} alt="" />
+
+
+</a>
+
+
+<a target='_blank' href='https://moeezinteriordesign.netlify.app' className='w-[130px] flex justify-center items-center h-[60px] border-white rounded-md border'>
+
+<img src="/logo6.png"  width={170}   alt="" />
+
+
+</a>
+
+
+<a target='_blank' href='https://moeezinteriordesign.netlify.app' className='w-[130px] flex justify-center items-center h-[60px] border-white rounded-md border'>
+
+<img src="/logo7.svg"  className='w-full h-full object-contain'   alt="" />
+
+
+</a>
+
+
+<a target='_blank' href='https://moeezinteriordesign.netlify.app' className='w-[130px] flex justify-center items-center h-[60px] border-white rounded-md border'>
+  
+
 <img src="/logo1.svg" width={100} alt="" />
 
 
@@ -584,17 +625,168 @@ Get in Touch
 <div id='portfolio'>
 
 
-<div className='bg-[#0a0a0a] text-center py-7'>
+<div className='bg-[#0a0a0a] text-center py-7 space-y-2'>
 
 <p className='text-primary font-semibold md:text-xl xl:text-2xl'>Portfolio</p>
 
 <p className='text-xl font-bold md:text-2xl xl:text-3xl'>Selected Works</p>
 
+<p className=' font-bold text-base md:text-lg px-8 text-white'>
+  
+<ul className='space-y-4 text-left '>
+
+<li className='text-primary text-3xl mr-4 '>Note:</li>
+
+<li>1. The websites displayed in my portfolio have been developed to showcase my skills and capabilities as a web developer.</li>
+
+<li>2. While the design, functionality, and attention to detail reflect the high standards I uphold for all my projects, it's important to clarify that these websites were created for demonstration purposes and not have been developed for actual clients. </li>
+
+<li>3. These portfolio pieces serve as examples of my proficiency in web development and are intended to provide potential clients with insight into the range of projects I am capable of delivering.</li>
+
+<li>4. Rest assured, you can expect the same dedication and excellence that you see in the work samples below.</li>
+
+
+</ul>
+
+
+</p>
+
+
 </div>
 
 
 
-<div className='space-y-5 md:space-y-0  md:mt-6 flex flex-col items-center md:justify-center  px-mobileCommon md:px-tabletCommon xl:px-desktopCommon md:flex-row md:flex-wrap md:gap-3  '>
+<div className='space-y-5 md:space-y-0  mt-6 flex flex-col items-center md:justify-center  px-mobileCommon md:px-tabletCommon xl:px-desktopCommon md:flex-row md:flex-wrap md:gap-3  '>
+
+
+
+  
+{/*  */}
+
+<a href='https://thegoodmentalhealthcompany.netlify.app' target='_blank' className='md:w-[49%] max-w-[650px]   w-full  h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] mockupBackground relative'  >
+
+
+
+<div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Therapist Website</div>
+
+
+
+<div className='w-full h-full relative bg-cover bg-center bg-no-repeat' style={{backgroundImage:'url(/portfolioSample/Final/web3-first.webp)'}}>
+
+
+<div className='w-full h-full transition-all duration-300  bg-black opacity-0 hover:opacity-75 '></div>
+
+</div>
+
+</a>
+
+
+
+{/*  */}
+
+
+
+
+{/*  */}
+
+
+<a href='https://bridgetbarnestherapy.netlify.app' target='_blank' className='md:w-[49%] max-w-[650px]   w-full  h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] mockupBackground relative'  >
+
+<div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Therapist Website</div>
+
+
+<div className='w-full h-full relative bg-cover bg-no-repeat bg-center ' style={{backgroundImage:'url(/portfolioSample/Final/web1-first.webp)'}}>
+
+
+
+<div className='w-full h-full transition-all duration-300  bg-black opacity-0 hover:opacity-75 '></div>
+
+</div>
+
+</a>
+
+
+{/*  */}
+
+<a href='https://bridgetbarnestherapy.netlify.app' target='_blank' className='md:w-[49%] max-w-[650px]   w-full  h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] mockupBackground relative'  >
+
+<div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Therapist Website</div>
+
+
+<div className='w-full h-full relative bg-cover bg-center bg-no-repeat' style={{backgroundImage:'url(/portfolioSample/Final/web1-second.webp)'}}>
+
+
+
+<div className='w-full h-full transition-all duration-300  bg-black opacity-0 hover:opacity-75 '></div>
+
+</div>
+
+</a>
+
+
+{/*  */}
+
+
+
+
+{/*  */}
+
+
+<a href='https://luciarossitherapy.netlify.app' target='_blank' className='md:w-[49%] max-w-[650px]   w-full  h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] mockupBackground relative'  >
+
+
+<div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Therapist Website</div>
+
+
+
+<div className='w-full h-full relative  bg-no-repeat 
+
+
+
+bg-[center_0] bg-[length:650px] md:bg-[length:800px] anotherDesktop:bg-[length:1000px]'
+
+
+
+style={{backgroundImage:'url(/portfolioSample/Final/web2-second.webp)',}}>
+
+
+
+<div className='w-full h-full transition-all duration-300  bg-black opacity-0 hover:opacity-75 '></div>
+
+</div>
+
+</a>
+
+{/*  */}
+
+
+
+<a href='https://luciarossitherapy.netlify.app' target='_blank' className='md:w-[49%] max-w-[650px]   w-full  h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] mockupBackground relative'  >
+
+
+<div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Therapist Website</div>
+
+
+
+<div className='w-full h-full relative bg-cover bg-no-repeat bg-center' style={{backgroundImage:'url(/portfolioSample/Final/web2-third.webp)'}} >
+
+
+<div className='w-full h-full transition-all duration-300  bg-black opacity-0 hover:opacity-75 '></div>
+
+</div>
+
+</a>
+
+
+{/*  */}
+
+{/*  */}
+
+
+
+{/*  */}
+
+
 
 
 <a href='https://moeezinteriordesign.netlify.app' target='_blank' className='md:w-[49%] max-w-[650px]   w-full  h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] mockupBackground'  >
@@ -627,7 +819,10 @@ Get in Touch
 
 
 
-<a href='https://revivedigi.vercel.app/our-clients' target='_blank' className='md:w-[49%] max-w-[650px]  w-full bg-[#1e1e1e] h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] bg-center bg-no-repeat bg-[length:410px_410px] md:bg-[length:510px_510px] lg:bg-[length:570px_570px] xl:bg-[length:650px_650px]  ' style={{backgroundImage:'url(/portfolioSample/revivedigi.png)'}}>
+<a href='https://revivedigi.vercel.app/our-clients' target='_blank' className='md:w-[49%] max-w-[650px]  w-full bg-[#1e1e1e] h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] bg-center bg-no-repeat bg-[length:410px_410px] md:bg-[length:510px_510px] lg:bg-[length:570px_570px] xl:bg-[length:650px_650px] relative ' style={{backgroundImage:'url(/portfolioSample/revivedigi.png)'}}>
+
+<div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Marketing Website</div>
+
 
 <div className='w-full h-full transition-all duration-300  bg-black opacity-0 hover:opacity-75 '></div>
 
@@ -636,6 +831,8 @@ Get in Touch
 
 
 <a href='https://abdulmoeez-agency.netlify.app' target='_blank' className='md:w-[49%] max-w-[650px]  w-full h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] relative ' >
+
+<div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Design Agency Website</div>
 
 
 <Image src='/portfolioSample/designagency.png' fill className='object-cover'  />
