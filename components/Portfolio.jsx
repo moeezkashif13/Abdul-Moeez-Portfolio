@@ -46,7 +46,7 @@ export default function Portfolio(){
     
     
     
-    <div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Therapist Website</div>
+    <div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Therapist Website. Click to visit</div>
     
     
     
@@ -81,7 +81,7 @@ export default function Portfolio(){
     
     <a href='https://bridgetbarnestherapy.netlify.app' target='_blank' className='md:w-[49%] max-w-[650px]   w-full  h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] mockupBackground relative'  >
     
-    <div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Therapist Website</div>
+    <div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Therapist Website. Click to visit</div>
     
     
     <div className='w-full h-full relative bg-cover bg-no-repeat bg-center block '
@@ -110,7 +110,7 @@ export default function Portfolio(){
     
     <a href='https://bridgetbarnestherapy.netlify.app' target='_blank' className='md:w-[49%] max-w-[650px]   w-full  h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] mockupBackground relative'  >
     
-    <div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Therapist Website</div>
+    <div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Therapist Website. Click to visit</div>
     
     
     <div className='w-full h-full relative bg-cover bg-center bg-no-repeat block' 
@@ -146,7 +146,7 @@ export default function Portfolio(){
     <a href='https://luciarossitherapy.netlify.app' target='_blank' className='md:w-[49%] max-w-[650px]   w-full  h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] mockupBackground relative'  >
     
     
-    <div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Therapist Website</div>
+    <div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Therapist Website. Click to visit</div>
     
     
     
@@ -178,7 +178,7 @@ export default function Portfolio(){
     <a href='https://luciarossitherapy.netlify.app' target='_blank' className='md:w-[49%] max-w-[650px]   w-full  h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] mockupBackground relative'  >
     
     
-    <div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Therapist Website</div>
+    <div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Therapist Website. Click to visit</div>
     
     
     
@@ -256,7 +256,7 @@ export default function Portfolio(){
     
     
     
-    <div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Marketing Website</div>
+    <div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Marketing Website. Click to visit</div>
     
     
     <div className='w-full h-full transition-all duration-300  bg-black opacity-0 hover:opacity-75 '></div>
@@ -267,7 +267,7 @@ export default function Portfolio(){
     
     <a href='https://abdulmoeez-agency.netlify.app' target='_blank' className='md:w-[49%] max-w-[650px]  w-full h-[400px] md:h-[500px] lg:h-[550px] xl:h-[600px] relative ' >
     
-    <div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Design Agency Website</div>
+    <div className='absolute top-2 left-0  h-10 lg:h-16 text-lg lg:text-xl z-20 w-full  flex items-center justify-center text-center   font-bold bg-[rgba(0,0,0,0.7)] text-white'>Type: Design Agency Website. Click to visit</div>
     
     
     <Image src='https://res.cloudinary.com/dtcwpaba5/image/upload/v1692384778/My%20Portfolio%20Website/pro3a8svc37cnn4pvwkl.webp' fill className='object-cover'  />

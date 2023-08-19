@@ -179,7 +179,7 @@ Get in Touch
 </a>
 
 
-<a target='_blank' href='bridgetbarnestherapy.netlify.app' className='w-[130px] flex justify-center items-center h-[60px] border-white rounded-md border'>
+<a target='_blank' href='https://bridgetbarnestherapy.netlify.app' className='w-[130px] flex justify-center items-center h-[60px] border-white rounded-md border'>
 
 <img src="/logo6.png"  width={170}   alt="" />
 
