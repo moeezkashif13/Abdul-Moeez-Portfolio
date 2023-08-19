@@ -4,7 +4,6 @@ import localFont from 'next/font/local'
 
 const SatoshiFont = localFont({ src: './Satoshi-Variable.woff2', })
 
-import Script from "next/script";
 
 
 export const metadata = {
@@ -16,7 +15,8 @@ export default function RootLayout({ children }) {
   return (
     <>
 
-<Script
+
+{/* <Script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
       />
@@ -30,12 +30,14 @@ export default function RootLayout({ children }) {
                     page_path: window.location.pathname,
                     });
                 `}
-      </Script>
-
+      </Script> */}
 
 
 
     <html lang="en">
+
+
+
       <body className={SatoshiFont.className}>{children}</body>
 
     </html>
