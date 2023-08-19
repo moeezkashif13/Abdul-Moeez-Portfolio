@@ -134,9 +134,9 @@ Get in Touch
 
 <div className='  md:absolute md:-top-[18%] md:-right-[8%] lg:-right-[5%] h-[350px]  sm:h-[525px] lg:h-[540px]  xl:-right-[6.3%] mt-4 1xl:top-[-15%] relative block'>
 
-{/* <img src="/removedbackground.png" className=' w-full h-full max-w-full' alt="" /> */}
+<img src="https://res.cloudinary.com/dtcwpaba5/image/upload/v1692445496/My%20Portfolio%20Website/hmqi2v93enszmn5eddog.webp" className=' w-full h-full max-w-full' alt="" />
 
-<Image src="https://res.cloudinary.com/dtcwpaba5/image/upload/v1692445496/My%20Portfolio%20Website/hmqi2v93enszmn5eddog.webp" width={520} height={520} style={{objectFit:'cover',}}  quality={100} />
+{/* <Image src="https://res.cloudinary.com/dtcwpaba5/image/upload/v1692445496/My%20Portfolio%20Website/hmqi2v93enszmn5eddog.webp" width={520} height={520} style={{objectFit:'cover',}}  quality={100} /> */}
 
 
 
