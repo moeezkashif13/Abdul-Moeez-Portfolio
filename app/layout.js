@@ -38,10 +38,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={SatoshiFont.className}>{children}</body>
 
-
-      {/* <Script  type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></Script> */}
-
-
     </html>
   
   </>
