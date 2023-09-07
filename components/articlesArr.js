@@ -61,4 +61,4 @@ const firstArticle = {
 }
 
 
-export const allArticles = [firstArticle,firstArticle,firstArticle,firstArticle,firstArticle,]
+export const allArticles = [firstArticle,firstArticle,firstArticle,firstArticle]
