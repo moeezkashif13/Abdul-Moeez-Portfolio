@@ -12,6 +12,9 @@
 /.next/
 /out/
 
+/public/temp.png
+/public/temp
+
 # production
 /build
 

@@ -10,13 +10,13 @@ export default function Portfolio(){
     
     <p className='text-xl font-bold md:text-2xl xl:text-3xl'>Selected Works</p>
     
-    <p className=' font-bold text-base md:text-lg px-8 text-white'>
+    <div className=' font-bold text-base md:text-lg px-8 text-white'>
       
     <ul className='space-y-4 text-left '>
     
     <li className='text-primary text-3xl mr-4 '>Note:</li>
     
-    <li>1. The websites displayed in my portfolio have been developed to showcase my skills and capabilities as a web developer.</li>
+    <li>1. The websites displayed in my portfolio have been developed to shoowcase my skills and capabilities as a web developer.</li>
     
     <li>2. While the design, functionality, and attention to detail reflect the high standards I uphold for all my projects, it's important to clarify that these websites were created for demonstration purposes and not have been developed for actual clients. </li>
     
@@ -28,7 +28,7 @@ export default function Portfolio(){
     </ul>
     
     
-    </p>
+    </div>
     
     
     </div>

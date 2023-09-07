@@ -2,7 +2,9 @@ import dynamic from 'next/dynamic'
 
 
 import { NavbarLinks } from '@/components/NavbarParts'
-import Image from 'next/image'
+import Link from 'next/link'
+import { FaCode } from 'react-icons/fa6'
+
 
 
 const Banner = dynamic(() => import('../components/Banner'))
@@ -21,6 +23,8 @@ const WhatICanDo = dynamic(() => import('../components/What I Can Do'))
 
 
 const ContactMe = dynamic(() => import('../components/Contact Me'))
+
+const Blog = dynamic(() => import('../components/Blog'))
 
 
 
@@ -57,7 +61,10 @@ export default function Home() {
 <div className='hidden md:flex items-start lg:items-center  justify-between px-desktopCommon pt-3 pb-6   '>
 
 
-<div>logo</div>
+<Link href="/" className="text-primary text-2xl flex items-center font-semibold ">
+    Abdul <span className="text-4xl mx-2 "> <FaCode/></span> Moeez
+</Link>
+
 
 <NavbarLinks/>
 
@@ -278,74 +285,24 @@ Get in Touch
 {/* SKILLS */}
 
 
-{/* WHAT I CAN DO */}
-
 <WhatICanDo/>
 
 
-{/* WHAT I CAN DO */}
-
-
-
-{/* SELECTED WORKS */}
-
 <Portfolio/>
 
+<Blog/>
 
-{/* SELECTED WORKS */}
+{/* <BookAppointment/> */}
 
-
-{/* BOOK APPOINTMENT */}
-
-
-<BookAppointment/>
-
-
-
-{/* BOOK APPOINTMENT */}
-
-
-
-{/* FAQ */}
 
 <FAQ/>
 
 
-{/* FAQ */}
 
+{/* <Banner/> */}
 
-{/* BANNER */}
-
-
-<div className='relative '>
-
-
-<div  className='uppercase   w-[500%]  -ml-16 bg-primary py-2 text-black  font-extrabold
-text-[0.8rem] lg:text-lg'>
-
-
-<Banner/>
-
-
-</div>
-
-
-
-
-</div>
-
-
-{/* BANNER */}
-
-
-{/* CONTACT ME */}
 
 <ContactMe/>
-
-
-
-
-{/* CONTACT ME */}
 
 
 
