@@ -30,8 +30,8 @@ export default function Blog(){
 return <Link href={`/blog/${eachArticle.slug}`} className="border-primary border-2 w-full sm:w-[calc(50%-10px)] md:w-[calc(33%-10px)] lg:max-w-[410px]   mb-6  space-y-3 pb-5">
     
 
-<div className="w-full h-[300px] relative bg-orange-500" >
-    <img src="/temp/kari.jpg" className="w-full h-full max-w-full object-cover object-center" alt="" />
+<div className="w-full h-[300px] relative " >
+    <img src={`/temp/${eachArticle.image}`} className="w-full h-full max-w-full object-cover object-center" alt="" />
 </div>
 
 

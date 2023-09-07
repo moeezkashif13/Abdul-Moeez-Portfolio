@@ -35,7 +35,7 @@ export default function EachArticle({params}){
     
 
     const selectedArticle = gotArticle[0]
-    
+    console.log(selectedArticle);
 
     return <div className="bg-black text-white overflow-x-hidden  relative ">
         
@@ -72,11 +72,10 @@ Get in Touch
 <div className="w-full">
 
 
-<h1 className="text-5xl font-semibold text-primary">{selectedArticle.title}</h1>
+<h1 className="text-5xl font-semibold text-primary leading-[3.3rem]">{selectedArticle.title}</h1>
 
 
-<div className="space-y-6 mt-7 text-lg" dangerouslySetInnerHTML={{__html:selectedArticle.content}}>
-
+<div className="space-y-6 mt-7 text-lg leading-8" dangerouslySetInnerHTML={{__html:selectedArticle.content}}>
 
 
 </div>
